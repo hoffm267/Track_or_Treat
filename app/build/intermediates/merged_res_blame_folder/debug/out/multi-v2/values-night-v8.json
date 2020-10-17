@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/xander/StudioProjects/Track_or_Treat/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/xander/StudioProjects/Track_or_Treat/app/src/main/res/values-night/themes.xml",
+                    "source": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/xander/StudioProjects/Track_or_Treat/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
+            "outputFile": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
             "map": [
                 {
                     "source": "/Users/xander/.gradle/caches/transforms-2/files-2.1/0615dd36bdcb2f6590bb0ac26e224203/navigation-ui-2.2.2/res/values-el/values-el.xml",

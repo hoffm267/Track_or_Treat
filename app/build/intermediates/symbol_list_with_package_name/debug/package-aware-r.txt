@@ -1482,6 +1482,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id ageInput
 id alertTitle
 id all
 id always
@@ -1491,9 +1492,9 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button2
 id buttonPanel
 id button_first
-id button_second
 id cancel_button
 id center
 id center_horizontal
@@ -1528,7 +1529,9 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id drivingInput
 id dropdown_menu
+id durationInput
 id edit_query
 id end
 id enterAlways
@@ -1536,7 +1539,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fade
 id fill
 id fill_horizontal
@@ -1570,6 +1572,7 @@ id line1
 id line3
 id listMode
 id list_item
+id locationInput
 id masked
 id message
 id middle
@@ -1693,6 +1696,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter

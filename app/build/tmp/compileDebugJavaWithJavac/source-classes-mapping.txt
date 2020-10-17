@@ -2,7 +2,6 @@ com/example/track_or_treat/BuildConfig.java
  com.example.track_or_treat.BuildConfig
 com/example/track_or_treat/MainActivity.java
  com.example.track_or_treat.MainActivity
- com.example.track_or_treat.MainActivity$1
 com/example/track_or_treat/SecondFragment.java
  com.example.track_or_treat.SecondFragment
  com.example.track_or_treat.SecondFragment$1

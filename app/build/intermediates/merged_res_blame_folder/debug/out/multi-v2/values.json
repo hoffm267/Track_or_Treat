@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/xander/StudioProjects/Track_or_Treat/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/xander/.gradle/caches/transforms-2/files-2.1/0615dd36bdcb2f6590bb0ac26e224203/navigation-ui-2.2.2/res/values/values.xml",
@@ -40,6 +40,23 @@
                     }
                 },
                 {
+                    "source": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "224,312,313,314,325,326,329",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "11641,17634,17681,17728,18472,18517,18683",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "11678,17676,17723,17770,18512,18557,18720"
+                    }
+                },
+                {
                     "source": "/Users/xander/.gradle/caches/transforms-2/files-2.1/28b4aa78b7d7c16150815353e8235a9e/recyclerview-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -75,40 +92,6 @@
                         "endLines": "302,303,413,414,415,416,417,418,419,633,634,635,636,637,638,639,640,641,642,643,644,645,646,647,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,701,702,716,717,718,719,720,721,722,723,724,725,729,759,854,3140,3144,3145,3149,3150,3692,3693,5578,5844,5876,5930,5937",
                         "endColumns": "68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,56,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
                         "endOffsets": "16978,17041,24384,24452,24524,24594,24655,24729,24802,38986,39047,39109,39173,39235,39296,39364,39464,39524,39590,39663,39732,39789,39841,39903,40493,40569,40634,40693,40752,40812,40872,40932,40992,41052,41112,41172,41232,41292,41352,41411,41471,41531,41591,41651,41711,41771,41831,41891,41951,42011,42070,42130,42190,42249,42308,42367,42426,42485,42544,43028,43063,43779,43842,43897,43955,44012,44062,44123,44180,44214,44249,44427,46203,57604,209504,209705,209815,210016,210145,248543,248610,356427,377467,379532,381941,382318"
-                    }
-                },
-                {
-                    "source": "/Users/xander/StudioProjects/Track_or_Treat/app/src/main/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "41",
-                        "endOffsets": "53"
-                    },
-                    "to": {
-                        "startLines": "469",
-                        "startColumns": "4",
-                        "startOffsets": "27990",
-                        "endColumns": "41",
-                        "endOffsets": "28027"
-                    }
-                },
-                {
-                    "source": "/Users/xander/StudioProjects/Track_or_Treat/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
-                    },
-                    "to": {
-                        "startLines": "224,312,313,314,325,326,329",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "11641,17634,17681,17728,18472,18517,18683",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "11678,17676,17723,17770,18512,18557,18720"
                     }
                 },
                 {
@@ -188,25 +171,6 @@
                     }
                 },
                 {
-                    "source": "/Users/xander/StudioProjects/Track_or_Treat/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2,21,16,23",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "100,992,829,1096",
-                        "endLines": "14,21,19,23",
-                        "endColumns": "12,102,12,92",
-                        "endOffsets": "823,1090,986,1184"
-                    },
-                    "to": {
-                        "startLines": "3416,3429,3430,3434",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "228248,228974,229076,229238",
-                        "endLines": "3428,3429,3433,3434",
-                        "endColumns": "12,101,12,91",
-                        "endOffsets": "228969,229071,229233,229325"
-                    }
-                },
-                {
                     "source": "/Users/xander/.gradle/caches/transforms-2/files-2.1/ef9c997edfa62b91e0d370b598210169/cardview-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -226,23 +190,6 @@
                     }
                 },
                 {
-                    "source": "/Users/xander/StudioProjects/Track_or_Treat/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "2,1,4,9,10,6,7,5",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "68,16,176,391,461,306,344,240",
-                        "endColumns": "52,51,63,69,82,37,45,65",
-                        "endOffsets": "116,63,235,456,539,339,385,301"
-                    },
-                    "to": {
-                        "startLines": "791,792,804,805,806,845,851,853",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "48394,48447,49675,49739,49809,56533,57373,57472",
-                        "endColumns": "52,51,63,69,82,37,45,65",
-                        "endOffsets": "48442,48494,49734,49804,49887,56566,57414,57533"
-                    }
-                },
-                {
                     "source": "/Users/xander/.gradle/caches/transforms-2/files-2.1/0d4494bee4a56a30051f107c7a8e3c94/coordinatorlayout-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,6,16",
@@ -259,6 +206,25 @@
                         "endLines": "37,4364,5619,5708",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "1893,289882,364517,369728"
+                    }
+                },
+                {
+                    "source": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "2,21,16,23",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "100,992,829,1096",
+                        "endLines": "14,21,19,23",
+                        "endColumns": "12,102,12,92",
+                        "endOffsets": "823,1090,986,1184"
+                    },
+                    "to": {
+                        "startLines": "3416,3429,3430,3434",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "228248,228974,229076,229238",
+                        "endLines": "3428,3429,3433,3434",
+                        "endColumns": "12,101,12,91",
+                        "endOffsets": "228969,229071,229233,229325"
                     }
                 },
                 {
@@ -352,6 +318,40 @@
                         "endLines": "6344,6350,6354,6357,6418",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "402481,402725,402878,403011,406726"
+                    }
+                },
+                {
+                    "source": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,1,4,9,10,6,7,5",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "68,16,176,391,461,306,344,240",
+                        "endColumns": "52,51,63,69,82,37,45,65",
+                        "endOffsets": "116,63,235,456,539,339,385,301"
+                    },
+                    "to": {
+                        "startLines": "791,792,804,805,806,845,851,853",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "48394,48447,49675,49739,49809,56533,57373,57472",
+                        "endColumns": "52,51,63,69,82,37,45,65",
+                        "endOffsets": "48442,48494,49734,49804,49887,56566,57414,57533"
+                    }
+                },
+                {
+                    "source": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
+                    },
+                    "to": {
+                        "startLines": "469",
+                        "startColumns": "4",
+                        "startOffsets": "27990",
+                        "endColumns": "41",
+                        "endOffsets": "28027"
                     }
                 }
             ]
