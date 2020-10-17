@@ -48,12 +48,12 @@
         "source": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/build/intermediates/res/merged/debug/navigation_nav_graph.xml.flat",
         "source": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/res/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -102,5 +102,9 @@
     {
         "merged": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/build/intermediates/res/merged/debug/layout_activity_maps.xml.flat",
+        "source": "/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/res/layout/activity_maps.xml"
     }
 ]
