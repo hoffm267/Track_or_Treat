@@ -48,13 +48,27 @@ public class SecondFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                age = Integer.valueOf(ageInput.getText().toString());
-                location = locationsInput.getText().toString();
-                duration = Integer.valueOf(durationInput.getText().toString());
-                if (drivingInput.getText().toString().toLowerCase() == "yes") {
-                    driving = true;
+                try {
+                    age = Integer.valueOf(ageInput.getText().toString());
+                } catch (Exception e) {
+                    ageInput.setError("Invalid Input");
+                }
+                if (locationsInput.getText().equals(null)) {
+                    location = locationsInput.getText().toString();
                 } else {
+                    locationsInput.setError("Invalid Input");
+                }
+                try {
+                    duration = Integer.valueOf(durationInput.getText().toString());
+                } catch (Exception e) {
+                    durationInput.setError("Invalid Input");
+                }
+                if (drivingInput.getText().toString().equalsIgnoreCase("yes")) {
+                    driving = true;
+                } else if (drivingInput.getText().toString().equalsIgnoreCase("no")) {
                     driving = false;
+                } else {
+                    drivingInput.setError("Invalid Input");
                 }
 
             }
