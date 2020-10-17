@@ -53,7 +53,7 @@ public class SecondFragment extends Fragment {
                 } catch (Exception e) {
                     ageInput.setError("Invalid Input");
                 }
-                if (locationsInput.getText().equals(null)) {
+                if (!locationsInput.getText().toString().equals("")) {
                     location = locationsInput.getText().toString();
                 } else {
                     locationsInput.setError("Invalid Input");
