@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
+import androidx.navigation.fragment.NavHostFragment;
 
 public class SecondFragment extends Fragment {
     public String location;
@@ -49,7 +50,7 @@ public class SecondFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 try {
-                    age = Integer.valueOf(ageInput.getText().toString());
+                    age = Integer.parseInt(ageInput.getText().toString());
                 } catch (Exception e) {
                     ageInput.setError("Invalid Input");
                 }
@@ -59,7 +60,7 @@ public class SecondFragment extends Fragment {
                     locationsInput.setError("Invalid Input");
                 }
                 try {
-                    duration = Integer.valueOf(durationInput.getText().toString());
+                    duration = Integer.parseInt(durationInput.getText().toString());
                 } catch (Exception e) {
                     durationInput.setError("Invalid Input");
                 }
@@ -70,6 +71,8 @@ public class SecondFragment extends Fragment {
                 } else {
                     drivingInput.setError("Invalid Input");
                 }
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.action_SecondFragment_to_mapsActivity);
 
             }
         });

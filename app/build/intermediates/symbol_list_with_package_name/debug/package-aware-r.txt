@@ -1488,6 +1488,7 @@ id SYM
 id SecondFragment
 id TOP_END
 id TOP_START
+id ThirdFragment
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -1523,6 +1524,8 @@ id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
+id action_SecondFragment_to_ThirdFragment
+id action_SecondFragment_to_mapsActivity
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1642,6 +1645,7 @@ id listMode
 id list_item
 id locationInput
 id map
+id mapsActivity
 id masked
 id message
 id middle
