@@ -1,4 +1,4 @@
-#Sat Oct 17 15:13:47 EDT 2020
+#Sat Oct 17 16:19:09 EDT 2020
 base.0=/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
