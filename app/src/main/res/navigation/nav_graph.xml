@@ -24,5 +24,35 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_mapsActivity"
+            app:destination="@id/mapsActivity" />
+        <action
+            android:id="@+id/action_SecondFragment_self"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_locActivity"
+            app:destination="@id/locActivity" />
     </fragment>
+    <fragment
+        android:id="@+id/ThirdFragment"
+        android:name="com.example.track_or_treat.ThirdFragment"
+        android:label="ThirdFragment" />
+    <activity
+        android:id="@+id/mapsActivity"
+        android:name="com.example.track_or_treat.MapsActivity"
+        android:label="activity_maps"
+        tools:layout="@layout/activity_maps" />
+    <fragment android:id="@+id/placeholder" >
+        <action
+            android:id="@+id/action_placeholder_to_mapsActivity"
+            app:destination="@id/mapsActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/locActivity"
+        android:name="com.example.track_or_treat.LocActivity"
+        android:label="LocActivity" />
 </navigation>

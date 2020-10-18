@@ -6,25 +6,22 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
+import androidx.navigation.fragment.NavHostFragment;
+
+import java.sql.SQLOutput;
 
 public class SecondFragment extends Fragment {
-    public String location;
-    public int age, duration;
-    public boolean driving;
 
-    EditText ageInput;
-    EditText locationsInput;
-    EditText durationInput;
-    EditText drivingInput;
+    public static String userLoc, friendLoc, dest; //change these to what you want the variable names to be
 
-    Button button;
+    EditText userInput;
+    EditText friendInput;
+    EditText destInput;
 
+    Button buttonBar, buttonRes, buttonThe;
 
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -37,44 +34,50 @@ public class SecondFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        ageInput = (EditText) ((MainActivity) getActivity()).findViewById(R.id.ageInput);
-        locationsInput = (EditText) ((MainActivity) getActivity()).findViewById(R.id.locationInput);
-        durationInput = (EditText) ((MainActivity) getActivity()).findViewById(R.id.durationInput);
-        drivingInput = (EditText) ((MainActivity) getActivity()).findViewById(R.id.drivingInput);
+        userInput = (EditText) ((MainActivity) getActivity()).findViewById(R.id.userAdd);
+        friendInput = (EditText) ((MainActivity) getActivity()).findViewById(R.id.friendAdd);
 
-
-
-        button = (Button) ((MainActivity) getActivity()).findViewById(R.id.button2);
-        button.setOnClickListener(new View.OnClickListener() {
+        buttonBar = (Button) ((MainActivity) getActivity()).findViewById(R.id.button);
+        buttonRes = (Button) ((MainActivity) getActivity()).findViewById(R.id.button2);
+        buttonThe = (Button) ((MainActivity) getActivity()).findViewById(R.id.button3);
+        buttonBar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try {
-                    age = Integer.valueOf(ageInput.getText().toString());
-                } catch (Exception e) {
-                    ageInput.setError("Invalid Input");
-                }
-                if (!locationsInput.getText().toString().equals("")) {
-                    location = locationsInput.getText().toString();
-                } else {
-                    locationsInput.setError("Invalid Input");
-                }
-                try {
-                    duration = Integer.valueOf(durationInput.getText().toString());
-                } catch (Exception e) {
-                    durationInput.setError("Invalid Input");
-                }
-                if (drivingInput.getText().toString().equalsIgnoreCase("yes")) {
-                    driving = true;
-                } else if (drivingInput.getText().toString().equalsIgnoreCase("no")) {
-                    driving = false;
-                } else {
-                    drivingInput.setError("Invalid Input");
-                }
+                //also change variable names here
+                userLoc = userInput.getText().toString().replace(" ", "+");
+                friendLoc = friendInput.getText().toString().replace(" ", "+");
+                dest = "bar";
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.action_SecondFragment_to_mapsActivity);
 
             }
         });
+        buttonRes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //also change variable names here
+                userLoc = userInput.getText().toString().replace(" ", "+");
+                friendLoc = friendInput.getText().toString().replace(" ", "+");
+                dest = "restaurant";
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.action_SecondFragment_to_mapsActivity);
 
+            }
+        });
+        buttonThe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //also change variable names here
+                userLoc = userInput.getText().toString().replace(" ", "+");
+                friendLoc = friendInput.getText().toString().replace(" ", "+");
+                dest = "movie_theater";
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.action_SecondFragment_to_mapsActivity);
+
+            }
+        });
     }
+
 }
 
 
