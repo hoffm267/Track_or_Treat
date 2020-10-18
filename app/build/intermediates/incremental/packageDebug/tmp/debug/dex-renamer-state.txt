@@ -1,4 +1,4 @@
-#Sun Oct 18 05:40:04 EDT 2020
-base.0=C\:\\Users\\rahim\\AndroidStudioProjects\\Track_or_Treat\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sun Oct 18 06:37:20 EDT 2020
+base.0=/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

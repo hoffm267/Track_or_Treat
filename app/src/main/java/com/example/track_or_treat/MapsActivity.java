@@ -104,7 +104,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
 
 
-
         mQueue = Volley.newRequestQueue(this);
 
         //String url = "https://maps.googleapis.com/maps/api/geocode/json?address=";
@@ -175,7 +174,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                         String nearByUrl = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
                         nearByUrl += "location=" + midLat + "," + midLng;
-                        nearByUrl += "&radius=" +radius;
+                        nearByUrl += "&radius=" + radius;
                         nearByUrl += "&type=restaurant&key=AIzaSyAJEVLsJQ74ukMWGrYKhjQvYx262Fhy3Tw";
 
                         System.out.println("Sending Http Request for closest type");
@@ -183,16 +182,20 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                 new Response.Listener<JSONObject>() {
                                     @Override
                                     public void onResponse(JSONObject response) {
+                                        String meetingName = "";
+
 
                                         try {
-                                            double[][] nearByLocations = getLocationsNearbySearch(response);
-                                            destintationLat = nearByLocations[0][0];
-                                            destinationLng = nearByLocations[0][1];
+                                            double[] nearByLocation = getLocationsNearbySearch(response, midLat, midLng);
+                                            destintationLat = nearByLocation[0];
+                                            destinationLng = nearByLocation[1];
+
+                                            meetingName = getMeetingLocation(response, nearByLocation);
 
                                         } catch (JSONException e) {
                                             e.printStackTrace();
                                         }
-                                        mMap.addMarker(new MarkerOptions().position(new LatLng(destintationLat, destinationLng)).title("Resaurant or sm"));
+                                        mMap.addMarker(new MarkerOptions().position(new LatLng(destintationLat, destinationLng)).title(meetingName));
                                     }
                                 }, new Response.ErrorListener() {
                             @Override
@@ -212,27 +215,20 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //Fort Wayne, IN
 
 
-
-
-
-
-
-
-
         midLat = 40.423298367915336;
         midLng = -86.90417305190029;
 
 
         double R = 6371e3; // metres
-        double x1 = midLat * Math.PI/180; // φ, λ in radians
-        double x2 = userLat * Math.PI/180;
-        double y1 = (userLat-midLat) * Math.PI/180;
-        double delt = (userLng-midLng) * Math.PI/180;
+        double x1 = midLat * Math.PI / 180; // φ, λ in radians
+        double x2 = userLat * Math.PI / 180;
+        double y1 = (userLat - midLat) * Math.PI / 180;
+        double delt = (userLng - midLng) * Math.PI / 180;
 
-        double a = Math.sin(y1/2) * Math.sin(y1/2) +
+        double a = Math.sin(y1 / 2) * Math.sin(y1 / 2) +
                 Math.cos(x1) * Math.cos(x2) *
-                        Math.sin(delt/2) * Math.sin(delt/2);
-        double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+                        Math.sin(delt / 2) * Math.sin(delt / 2);
+        double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
         radius = (int) (R * c); // in metres
 
@@ -240,7 +236,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
 
-    public static double[][] getLocationsNearbySearch(JSONObject in) throws JSONException {
+    public static double[] getLocationsNearbySearch(JSONObject in, double lat, double lng) throws JSONException { //returns meeting location
         JSONArray results = in.getJSONArray("results");
         ArrayList<Double[]> locations = new ArrayList<Double[]>();
 
@@ -266,10 +262,49 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 locationsArray[i][1] = geometries.get(i).getJSONObject("location").getDouble("lng");
             }
         }
-        //coverts to doubl[][]
+
+        double[] latLng = {lat, lng};
+
+        double[] distances = new double[locationsArray.length];
         for (int i = 0; i < locationsArray.length; i++) {
-            System.out.println(locationsArray[i][0] + ", " + locationsArray[i][1]);
+            double distance;
+            distance = Math.sqrt(Math.pow((latLng[0] - locationsArray[i][0]), 2) + Math.pow((latLng[1] - locationsArray[i][1]), 2));
+            distances[i] = distance;
         }
-        return locationsArray;
+        double min = Double.MAX_VALUE;
+        int minIndex = 0;
+        for (int i = 0; i < distances.length; i++) {
+            if (distances[i] < min) {
+                min = distances[i];
+                minIndex = i;
+            }
+        }
+        return locationsArray[minIndex];
+    }
+
+    public static String getMeetingLocation(JSONObject in, double [] latLng) throws JSONException{
+        JSONArray results = in.getJSONArray("results");
+        ArrayList<Double[]> locations = new ArrayList<Double[]>();
+
+
+        ArrayList<String> names = new ArrayList<>();
+
+        for (int i = 0; i < results.length(); i++) {
+            JSONObject jObj = results.getJSONObject(i);
+            try {
+                names.add(jObj.getString("name"));
+            } catch (JSONException e) {
+                continue;
+            }
+        }
+        System.out.println(names);
+        for (int i = 0; i < results.length(); i++){
+            JSONObject jObj = results.getJSONObject(i);
+            if(Math.abs(jObj.getJSONObject("geometry").getJSONObject("location").getDouble("lat") - latLng[0]) <= .000001 &&
+                    Math.abs(jObj.getJSONObject("geometry").getJSONObject("location").getDouble("lng") - latLng[1]) <= .000001){
+                return names.get(i);
+            }
+        }
+        return "error";
     }
 }

@@ -1,17 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rahim\\AndroidStudioProjects\\Track_or_Treat\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rahim\\AndroidStudioProjects\\Track_or_Treat\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "102",
+                        "startOffsets": "100",
                         "endLines": "14",
                         "endColumns": "12",
-                        "endOffsets": "837"
+                        "endOffsets": "823"
                     },
                     "to": {
                         "startLines": "25",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rahim\\.gradle\\caches\\transforms-2\\files-2.1\\0c7fcc8a97f042e68b1c574b2ffeaf0b\\material-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "/Users/chasefrech/.gradle/caches/transforms-2/files-2.1/0c7fcc8a97f042e68b1c574b2ffeaf0b/material-1.1.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rahim\\.gradle\\caches\\transforms-2\\files-2.1\\7575645f9d1a3af4256e47895613b6df\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "/Users/chasefrech/.gradle/caches/transforms-2/files-2.1/7575645f9d1a3af4256e47895613b6df/appcompat-1.1.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
