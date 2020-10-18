@@ -1523,8 +1523,10 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action_FirstFragment_to_SecondFragment
+id action_SecondFragment_self
 id action_SecondFragment_to_FirstFragment
 id action_SecondFragment_to_ThirdFragment
+id action_SecondFragment_to_locActivity
 id action_SecondFragment_to_mapsActivity
 id action_bar
 id action_bar_activity_content
@@ -1542,6 +1544,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_placeholder_to_mapsActivity
 id action_settings
 id action_text
 id actions
@@ -1643,6 +1646,7 @@ id line1
 id line3
 id listMode
 id list_item
+id locActivity
 id locationInput
 id map
 id mapsActivity
@@ -1701,6 +1705,7 @@ id password_toggle
 id peekHeight
 id percent
 id pin
+id placeholder
 id progress_circular
 id progress_horizontal
 id radio

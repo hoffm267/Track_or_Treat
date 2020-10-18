@@ -39,7 +39,7 @@
 27        android:allowBackup="true"
 27-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:14:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.1.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\80f58724caaf330e74c3000cc6797977\core-1.1.0\AndroidManifest.xml:24:18-86
+28-->[androidx.core:core:1.2.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\85101bac7d922edb8c8157bd7e8a09ef\core-1.2.0\AndroidManifest.xml:24:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
 30-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:15:9-43
@@ -102,20 +102,20 @@
 65-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 66
 67        <activity
-67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\b64aa4f17e23c4f3b9c5f8ff583bfd0d\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+67-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\5f7c4660a06686e54dbe039880941d5c\jetified-play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
 68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\b64aa4f17e23c4f3b9c5f8ff583bfd0d\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+68-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\5f7c4660a06686e54dbe039880941d5c\jetified-play-services-base-17.3.0\AndroidManifest.xml:24:13-79
 69            android:exported="false"
-69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\b64aa4f17e23c4f3b9c5f8ff583bfd0d\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+69-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\5f7c4660a06686e54dbe039880941d5c\jetified-play-services-base-17.3.0\AndroidManifest.xml:25:13-37
 70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\b64aa4f17e23c4f3b9c5f8ff583bfd0d\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+70-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\5f7c4660a06686e54dbe039880941d5c\jetified-play-services-base-17.3.0\AndroidManifest.xml:26:13-72
 71
 72        <meta-data
-72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\09a73e8828332f639ca43c2c3d1e6559\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+72-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\2efb63d3cc0c82f448ba8f18077ca6dc\jetified-play-services-basement-17.3.0\AndroidManifest.xml:23:9-25:69
 73            android:name="com.google.android.gms.version"
-73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\09a73e8828332f639ca43c2c3d1e6559\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+73-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\2efb63d3cc0c82f448ba8f18077ca6dc\jetified-play-services-basement-17.3.0\AndroidManifest.xml:24:13-58
 74            android:value="@integer/google_play_services_version" />
-74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\09a73e8828332f639ca43c2c3d1e6559\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+74-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\2efb63d3cc0c82f448ba8f18077ca6dc\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
 75    </application>
 76
 77</manifest>
