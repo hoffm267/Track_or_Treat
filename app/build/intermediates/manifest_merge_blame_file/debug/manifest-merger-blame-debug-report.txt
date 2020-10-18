@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml
+8-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml
+9-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml
 10
 11    <!--
 12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -16,42 +16,42 @@
 14         location permissions for the "MyLocation" functionality.
 15    -->
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:10:5-79
-16-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:10:22-76
+16-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:10:22-76
 17    <uses-permission android:name="android.permission.INTERNET" />
-17-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:11:5-66
-17-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:11:22-64
+17-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:11:5-66
+17-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:11:22-64
 18
 19    <!-- Include required permissions for Google Maps API to run. -->
 20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
 21
 22    <uses-feature
-22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 23        android:glEsVersion="0x00020000"
-23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 24        android:required="true" />
-24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 25
 26    <application
-26-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:13:5-46:19
+26-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:13:5-46:19
 27        android:allowBackup="true"
-27-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:14:9-35
+27-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:14:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.2.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/85101bac7d922edb8c8157bd7e8a09ef/core-1.2.0/AndroidManifest.xml:24:18-86
+28-->[androidx.core:core:1.2.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\85101bac7d922edb8c8157bd7e8a09ef\core-1.2.0\AndroidManifest.xml:24:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
-30-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:15:9-43
+30-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:15:9-43
 31        android:label="@string/app_name"
-31-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:16:9-41
+31-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:16:9-41
 32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:17:9-54
+32-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:17:9-54
 33        android:supportsRtl="true"
-33-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:18:9-35
+33-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:18:9-35
 34        android:testOnly="true"
 35        android:theme="@style/Theme.Track_or_Treat" >
-35-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:19:9-52
+35-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:19:9-52
 36
 37        <!--
 38             The API key for Google Maps-based APIs is defined as a string resource.
@@ -62,60 +62,60 @@
 43             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 44        -->
 45        <meta-data
-45-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:29:9-31:55
+45-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:29:9-31:55
 46            android:name="com.google.android.geo.API_KEY"
-46-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:30:13-58
+46-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:30:13-58
 47            android:value="@string/google_maps_key" />
-47-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:31:13-52
+47-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:31:13-52
 48
 49        <activity
-49-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:33:9-35:68
+49-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:33:9-35:68
 50            android:name="com.example.track_or_treat.MapsActivity"
-50-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:34:13-41
+50-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:34:13-41
 51            android:label="@string/title_activity_maps" />
-51-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:35:13-56
+51-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:35:13-56
 52        <activity
-52-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:36:9-45:20
+52-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:36:9-45:20
 53            android:name="com.example.track_or_treat.MainActivity"
-53-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:37:13-41
+53-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:37:13-41
 54            android:label="@string/app_name"
-54-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:38:13-45
+54-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:38:13-45
 55            android:theme="@style/Theme.Track_or_Treat.NoActionBar" >
-55-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:39:13-68
+55-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:39:13-68
 56            <intent-filter>
-56-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:40:13-44:29
+56-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:40:13-44:29
 57                <action android:name="android.intent.action.MAIN" />
-57-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:41:17-69
-57-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:41:25-66
+57-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:41:17-69
+57-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:41:25-66
 58
 59                <category android:name="android.intent.category.LAUNCHER" />
-59-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:43:17-77
-59-->/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/AndroidManifest.xml:43:27-74
+59-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:43:17-77
+59-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:43:27-74
 60            </intent-filter>
 61        </activity>
 62        <!-- Needs to be explicitly declared on P+ -->
 63        <uses-library
-63-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+63-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 64            android:name="org.apache.http.legacy"
-64-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+64-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 65            android:required="false" />
-65-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+65-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 66
 67        <activity
-67-->[com.google.android.gms:play-services-base:17.3.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/5f7c4660a06686e54dbe039880941d5c/jetified-play-services-base-17.3.0/AndroidManifest.xml:23:9-26:75
+67-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\5f7c4660a06686e54dbe039880941d5c\jetified-play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
 68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-68-->[com.google.android.gms:play-services-base:17.3.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/5f7c4660a06686e54dbe039880941d5c/jetified-play-services-base-17.3.0/AndroidManifest.xml:24:13-79
+68-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\5f7c4660a06686e54dbe039880941d5c\jetified-play-services-base-17.3.0\AndroidManifest.xml:24:13-79
 69            android:exported="false"
-69-->[com.google.android.gms:play-services-base:17.3.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/5f7c4660a06686e54dbe039880941d5c/jetified-play-services-base-17.3.0/AndroidManifest.xml:25:13-37
+69-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\5f7c4660a06686e54dbe039880941d5c\jetified-play-services-base-17.3.0\AndroidManifest.xml:25:13-37
 70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-70-->[com.google.android.gms:play-services-base:17.3.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/5f7c4660a06686e54dbe039880941d5c/jetified-play-services-base-17.3.0/AndroidManifest.xml:26:13-72
+70-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\5f7c4660a06686e54dbe039880941d5c\jetified-play-services-base-17.3.0\AndroidManifest.xml:26:13-72
 71
 72        <meta-data
-72-->[com.google.android.gms:play-services-basement:17.3.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/2efb63d3cc0c82f448ba8f18077ca6dc/jetified-play-services-basement-17.3.0/AndroidManifest.xml:23:9-25:69
+72-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\2efb63d3cc0c82f448ba8f18077ca6dc\jetified-play-services-basement-17.3.0\AndroidManifest.xml:23:9-25:69
 73            android:name="com.google.android.gms.version"
-73-->[com.google.android.gms:play-services-basement:17.3.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/2efb63d3cc0c82f448ba8f18077ca6dc/jetified-play-services-basement-17.3.0/AndroidManifest.xml:24:13-58
+73-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\2efb63d3cc0c82f448ba8f18077ca6dc\jetified-play-services-basement-17.3.0\AndroidManifest.xml:24:13-58
 74            android:value="@integer/google_play_services_version" />
-74-->[com.google.android.gms:play-services-basement:17.3.0] /Users/chasefrech/.gradle/caches/transforms-2/files-2.1/2efb63d3cc0c82f448ba8f18077ca6dc/jetified-play-services-basement-17.3.0/AndroidManifest.xml:25:13-66
+74-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\2efb63d3cc0c82f448ba8f18077ca6dc\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
 75    </application>
 76
 77</manifest>

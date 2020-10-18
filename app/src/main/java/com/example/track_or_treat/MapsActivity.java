@@ -49,6 +49,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     double destintationLat = 0;
     double destinationLng = 0;
     int radius;
+    String finalType;
 
     boolean userDone = false;
     boolean friendDone = false;
@@ -174,10 +175,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         midLat = (userLat + friendLat) / 2;
                         midLng = (userLng + friendLng) / 2;
 
+                        finalType = SecondFragment.dest;
+
                         String nearByUrl = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
                         nearByUrl += "location=" + midLat + "," + midLng;
                         nearByUrl += "&radius=" + radius;
-                        nearByUrl += "&type=restaurant&key=AIzaSyAJEVLsJQ74ukMWGrYKhjQvYx262Fhy3Tw";
+                        nearByUrl += "&type=" + finalType;
+                        nearByUrl += "&key=AIzaSyAJEVLsJQ74ukMWGrYKhjQvYx262Fhy3Tw";
 
                         System.out.println("Sending Http Request for closest type");
                         JsonObjectRequest closestLocation = new JsonObjectRequest(Request.Method.GET, nearByUrl, null,
