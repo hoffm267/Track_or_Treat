@@ -18,6 +18,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
@@ -99,9 +100,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Log.d("Message", "onMapReady");
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng start = new LatLng(39.793694, -86.134157);
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(start));
 
 
         mQueue = Volley.newRequestQueue(this);
@@ -109,8 +109,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //String url = "https://maps.googleapis.com/maps/api/geocode/json?address=";
         //url += "11616+Carroll+Cove,+Fort+Wayne,+IN";
         //url += "&key=AIzaSyAJEVLsJQ74ukMWGrYKhjQvYx262Fhy3Tw";
-        String userUrl = "https://maps.googleapis.com/maps/api/geocode/json?address=11616+Carroll+Cove,+Fort+Wayne,+IN&key=AIzaSyAJEVLsJQ74ukMWGrYKhjQvYx262Fhy3Tw";
-        String friendUrl = "https://maps.googleapis.com/maps/api/geocode/json?address=221+Mabry+Cove,+Fort+Wayne,+IN&key=AIzaSyAJEVLsJQ74ukMWGrYKhjQvYx262Fhy3Tw";
+        String userUrl = "https://maps.googleapis.com/maps/api/geocode/json?address=";
+        userUrl += SecondFragment.userLoc;
+        userUrl += "&key=AIzaSyAJEVLsJQ74ukMWGrYKhjQvYx262Fhy3Tw";
+        String friendUrl = "https://maps.googleapis.com/maps/api/geocode/json?address=" + SecondFragment.friendLoc + "&key=AIzaSyAJEVLsJQ74ukMWGrYKhjQvYx262Fhy3Tw";
 
         System.out.println("Http Request for User Location");
         JsonObjectRequest userLocation = new JsonObjectRequest(Request.Method.GET, userUrl, null,
@@ -195,7 +197,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                         } catch (JSONException e) {
                                             e.printStackTrace();
                                         }
-                                        mMap.addMarker(new MarkerOptions().position(new LatLng(destintationLat, destinationLng)).title(meetingName));
+                                        mMap.addMarker(new MarkerOptions().position(new LatLng(destintationLat, destinationLng)).title(meetingName).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
                                     }
                                 }, new Response.ErrorListener() {
                             @Override

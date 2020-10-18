@@ -20,12 +20,12 @@
         "source": "/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/build/intermediates/res/merged/debug/layout_activity_maps.xml.flat",
-        "source": "/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/res/layout/activity_maps.xml"
-    },
-    {
         "merged": "/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/build/intermediates/res/merged/debug/layout_activity_maps.xml.flat",
+        "source": "/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/src/main/res/layout/activity_maps.xml"
     },
     {
         "merged": "/Users/chasefrech/Documents/GitHub/Track_or_Treat/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
