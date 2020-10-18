@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml
+8-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml
+9-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml
 10
 11    <!--
 12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -16,42 +16,42 @@
 14         location permissions for the "MyLocation" functionality.
 15    -->
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:10:5-79
-16-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:10:22-76
-17
-18    <!-- Include required permissions for Google Maps API to run. -->
-19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
-20    <uses-permission android:name="android.permission.INTERNET" />
-20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:22-64
+16-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:11:5-66
+17-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:11:22-64
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
 21
 22    <uses-feature
-22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 23        android:glEsVersion="0x00020000"
-23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 24        android:required="true" />
-24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 25
 26    <application
-26-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:12:5-45:19
+26-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:13:5-46:19
 27        android:allowBackup="true"
-27-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:13:9-35
+27-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:14:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.1.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:24:18-86
+28-->[androidx.core:core:1.1.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\80f58724caaf330e74c3000cc6797977\core-1.1.0\AndroidManifest.xml:24:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
-30-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:14:9-43
+30-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:15:9-43
 31        android:label="@string/app_name"
-31-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:15:9-41
+31-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:16:9-41
 32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:16:9-54
+32-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:17:9-54
 33        android:supportsRtl="true"
-33-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:17:9-35
+33-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:18:9-35
 34        android:testOnly="true"
 35        android:theme="@style/Theme.Track_or_Treat" >
-35-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:18:9-52
+35-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:19:9-52
 36
 37        <!--
 38             The API key for Google Maps-based APIs is defined as a string resource.
@@ -62,60 +62,60 @@
 43             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 44        -->
 45        <meta-data
-45-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:28:9-30:55
+45-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:29:9-31:55
 46            android:name="com.google.android.geo.API_KEY"
-46-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:29:13-58
+46-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:30:13-58
 47            android:value="@string/google_maps_key" />
-47-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:30:13-52
+47-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:31:13-52
 48
 49        <activity
-49-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:32:9-34:68
+49-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:33:9-35:68
 50            android:name="com.example.track_or_treat.MapsActivity"
-50-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:33:13-41
+50-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:34:13-41
 51            android:label="@string/title_activity_maps" />
-51-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:34:13-56
+51-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:35:13-56
 52        <activity
-52-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:35:9-44:20
+52-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:36:9-45:20
 53            android:name="com.example.track_or_treat.MainActivity"
-53-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:36:13-41
+53-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:37:13-41
 54            android:label="@string/app_name"
-54-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:37:13-45
+54-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:38:13-45
 55            android:theme="@style/Theme.Track_or_Treat.NoActionBar" >
-55-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:38:13-68
+55-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:39:13-68
 56            <intent-filter>
-56-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:39:13-43:29
+56-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:40:13-44:29
 57                <action android:name="android.intent.action.MAIN" />
-57-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:40:17-69
-57-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:40:25-66
+57-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:41:17-69
+57-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:41:25-66
 58
 59                <category android:name="android.intent.category.LAUNCHER" />
-59-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:42:17-77
-59-->/Users/xander/StudioProjects/Track_or_Treat/Track_or_Treat/app/src/main/AndroidManifest.xml:42:27-74
+59-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:43:17-77
+59-->C:\Users\rahim\AndroidStudioProjects\Track_or_Treat\app\src\main\AndroidManifest.xml:43:27-74
 60            </intent-filter>
 61        </activity>
 62        <!-- Needs to be explicitly declared on P+ -->
 63        <uses-library
-63-->[com.google.android.gms:play-services-maps:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+63-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 64            android:name="org.apache.http.legacy"
-64-->[com.google.android.gms:play-services-maps:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+64-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 65            android:required="false" />
-65-->[com.google.android.gms:play-services-maps:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/d027d9448fbcf9654d950b23d8ed0e5d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+65-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\d027d9448fbcf9654d950b23d8ed0e5d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 66
 67        <activity
-67-->[com.google.android.gms:play-services-base:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/b64aa4f17e23c4f3b9c5f8ff583bfd0d/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\b64aa4f17e23c4f3b9c5f8ff583bfd0d\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-68-->[com.google.android.gms:play-services-base:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/b64aa4f17e23c4f3b9c5f8ff583bfd0d/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\b64aa4f17e23c4f3b9c5f8ff583bfd0d\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 69            android:exported="false"
-69-->[com.google.android.gms:play-services-base:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/b64aa4f17e23c4f3b9c5f8ff583bfd0d/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\b64aa4f17e23c4f3b9c5f8ff583bfd0d\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-70-->[com.google.android.gms:play-services-base:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/b64aa4f17e23c4f3b9c5f8ff583bfd0d/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\b64aa4f17e23c4f3b9c5f8ff583bfd0d\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 71
 72        <meta-data
-72-->[com.google.android.gms:play-services-basement:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/09a73e8828332f639ca43c2c3d1e6559/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\09a73e8828332f639ca43c2c3d1e6559\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 73            android:name="com.google.android.gms.version"
-73-->[com.google.android.gms:play-services-basement:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/09a73e8828332f639ca43c2c3d1e6559/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\09a73e8828332f639ca43c2c3d1e6559\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 74            android:value="@integer/google_play_services_version" />
-74-->[com.google.android.gms:play-services-basement:17.0.0] /Users/xander/.gradle/caches/transforms-2/files-2.1/09a73e8828332f639ca43c2c3d1e6559/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rahim\.gradle\caches\transforms-2\files-2.1\09a73e8828332f639ca43c2c3d1e6559\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 75    </application>
 76
 77</manifest>
